@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-nested-components-input-exercise1';
+  myPosts: string[] = ['This is a post.', 'This is another post.', 'Yet another post.'];
 }
